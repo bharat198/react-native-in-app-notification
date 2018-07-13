@@ -6,7 +6,7 @@ import GestureRecognizer, { swipeDirections } from 'react-native-swipe-gestures'
 const styles = {
   root: {
     flex: 1,
-    backgroundColor: '#050505',
+    backgroundColor: '#086289',
   },
   container: {
     position: 'absolute',
@@ -28,7 +28,7 @@ const styles = {
     borderRadius: 5,
   },
   icon: {
-    marginTop: 10,
+    marginTop: 20,
     marginLeft: 10,
     resizeMode: 'contain',
     width: 48,
@@ -39,11 +39,12 @@ const styles = {
     marginLeft: 20,
   },
   title: {
-    color: '#FFF',
-    fontWeight: 'bold',
+     color: '#000',
+     fontWeight: 'bold',
+     marginTop: 10,
   },
   message: {
-    color: '#FFF',
+    color: '#000',
     marginTop: 5,
   },
   footer: {
